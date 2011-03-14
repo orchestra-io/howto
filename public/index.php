@@ -21,7 +21,8 @@
 				<h2>Test data from PHP</h2>
 				<p>
 				<?php
-					echo "<p>Your app is running on PHP version: " . PHP_RELEASE_VERSION . "<br/></p>";
+                    $version = phpversion();
+					echo "<p>Your app is running on PHP version: " . $version . "<br/></p>";
 					echo "<p>The IP of your app is: " . $_SERVER['REMOTE_ADDR'] . "<br/></p>";
 					echo "<p>Temp dir available to your app is: " . sys_get_temp_dir() . "</p>";
 				?>
@@ -32,7 +33,7 @@
 <?php
 $code = highlight_string('
 <?php
-	$version = PHP_RELEASE_VERSION;
+	$version = phpversion();
 	$ip = $_SERVER["REMOTE_ADDR"];
 	$temp = sys_get_temp_dir();
 ?>',1);
