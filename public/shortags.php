@@ -1,5 +1,5 @@
 <?php
-ini_set('short_open_tag', true);
+$name = 'testing';
 ?>
 
-<? echo 'hello'; ?>
+<?=$name?>
