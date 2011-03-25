@@ -1,3 +1,3 @@
 <?php
 
-setcookie('_orchestra', '1', time()*60*60, '/', true);
+setcookie('_orchestra', '1', 0, '/', true);
