@@ -18,7 +18,7 @@
 					<li><a href="https://orchestra.tenderapp.com/kb/getting-started/deploy-with-git">Deploy onto Orchestra from Git</a></li>
 					<li><a href="https://orchestra.tenderapp.com/kb/getting-started/deploy-with-subversion">Deploy onto Orchestra from Subversion</a></li>
 				</ul>
-				<h2>Test data from PHP</h2>
+				<h2>Test data from <a href="http://php.net/">PHP</a></h2>
 				<p>
 				<?php
                     $version = phpversion();
