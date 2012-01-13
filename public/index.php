@@ -24,7 +24,8 @@
 				<?php
                     $version = phpversion();
 					echo "<p>Your app is running on PHP version: " . $version . "<br/></p>";
-					echo "<p>The IP of your app is: " . $_SERVER['HTTP_X_FORWARDED_FOR'] . "<br/></p>";
+					echo "<p>The app IP is: " . $_SERVER['HTTP_X_FORWARDED_SERVER'] . "<br/></p>";
+					echo "<p>The client IP is : " . $_SERVER['HTTP_X_FORWARDED_HOST'] . "<br/></p>";
 					echo "<p>Temp dir available to your app is: " . sys_get_temp_dir() . "</p>";
 				?>
 
@@ -35,7 +36,8 @@
 $code = highlight_string('
 <?php
 	$version = phpversion();
-	$ip = $_SERVER["HTTP_X_FORWARDED_FOR"];
+	$ip = $_SERVER["HTTP_X_FORWARDED_SERVER"];
+	$ip = $_SERVER["HTTP_X_FORWARDED_HOST"];
 	$temp = sys_get_temp_dir();
 ?>',1);
 echo $code;
