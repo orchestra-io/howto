@@ -1,1 +1,1 @@
-<?php echo 'This is a test of pushies.'; ?>
+<?php echo 'This is a test of pushiess.'; ?>
