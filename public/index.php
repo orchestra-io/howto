@@ -1,12 +1,12 @@
 <html>
     <!-- Testing -->
 	<head>
-		<link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/styles.css" media="screen"/>
 	</head>
 	<body>
 		<div id="container">
 			<div id="logo">
-				<img src="images/orchestra_logo_on_light.png">
+				<img src="/images/orchestra_logo_on_light.png">
 			</div>
 			<div id="content">
 				<h2>Seriously, how easy was that?!</h2>
@@ -16,8 +16,8 @@
 				</p>
 				<p>Now, go! <a href="https://my.orchestra.io/apps/create/free?">Start deploying</a> from your own Git or Subversion repositories. We've got some easy to read documentation on that, if you need it:
 				<ul>
-					<li><a href="https://orchestra.tenderapp.com/kb/getting-started/deploy-with-git">Deploy onto Orchestra from Git</a></li>
-					<li><a href="https://orchestra.tenderapp.com/kb/getting-started/deploy-with-subversion">Deploy onto Orchestra from Subversion</a></li>
+					<li><a href="http://docs.orchestra.io//kb/getting-started/deploy-with-git">Deploy onto Orchestra from Git</a></li>
+					<li><a href="http://docs.orchestra.io//kb/getting-started/deploy-with-subversion">Deploy onto Orchestra from Subversion</a></li>
 				</ul>
 				<h2>Test data from <a href="http://php.net/">PHP</a></h2>
 				<p>
