@@ -22,6 +22,8 @@
 				<h2>Test data from <a href="http://php.net/">PHP</a></h2>
 				<p>
 				<?php
+				echo phpinfo();
+				
                     $version = phpversion();
 					echo "<p>Your app is running on PHP version: " . $version . "<br/></p>";
 					echo "<p>The app IP is: " . $_SERVER['SERVER_ADDR'] . "<br/></p>";
