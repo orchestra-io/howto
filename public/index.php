@@ -16,8 +16,8 @@
 				</p>
 				<p>Now, go! <a href="https://my.orchestra.io/apps/create/free?">Start deploying</a> from your own Git or Subversion repositories. We've got some easy to read documentation on that, if you need it:
 				<ul>
-					<li><a href="http://docs.orchestra.io//kb/getting-started/deploy-with-git">Deploy onto Orchestra from Git</a></li>
-					<li><a href="http://docs.orchestra.io//kb/getting-started/deploy-with-subversion">Deploy onto Orchestra from Subversion</a></li>
+					<li><a href="http://support.cloud.engineyard.com/entries/21066902-deploy-with-git">Deploy onto Orchestra from Git</a></li>
+					<li><a href="http://support.cloud.engineyard.com/entries/21072138-deploy-with-subversion">Deploy onto Orchestra from Subversion</a></li>
 				</ul>
 				<h2>Test data from <a href="http://php.net/">PHP</a></h2>
 				<p>
