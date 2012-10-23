@@ -29,7 +29,7 @@
 					echo "<p>Temp dir available to your app is: " . sys_get_temp_dir() . "</p>";
                 ?>
                 <?php
-                    if (is_dir("/mnt/storage/s3")) {
+                    if (! ini_get('open_basedir') && is_dir("/mnt/storage/s3")) {
                         echo "<p>Elastic storage available at: <code>/mnt/storage/s3</code></p>";
                     }
                 ?>
